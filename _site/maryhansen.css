@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+	font-family: 'ColaborateLightRegular';
+	src: url('/fonts/ColabLig-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Colaborate-MediumRegular';
+	src: url('/fonts/ColabMed-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MidoMedium';
+	src: url('/fonts/Mido-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+    font-family: ColaborateLightRegular, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 16px;
+        margin: 0.5rem;
+    } 
+}
+
+a {
+    color: #900;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #666;
+}
+
+a:hover {
+    color: #990000;
+	border-bottom: 1px dotted #900;
+}
+
+img {
+    margin: 2px;
+}
+
+h1 {
+    width: 270px;
+    height: 66px;
+    margin: 0 auto;
+    text-indent: -9999px;
+    background: #fff url(hdlogo.jpg) no-repeat center center;
+    padding: 5px;
+    z-index: 1;
+}
+
+@media screen and (min-width: 800px) {
+    h1 {
+        position: relative;
+        top: 40px;
+    } 
+}
+
+h1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 1.4em;
+    font-family: MidoMedium, Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 1.1em;
+	font-family: MidoMedium, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+blockquote {
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 0 30px #ccc, 0 0 5px #efefef;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: .9em;
+    display: block;
+}
+
+strong {
+    font-weight: normal;
+    font-family: Colaborate-MediumRegular, Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* main content div */
+.bored {
+    border: 1px dotted #900;
+    margin: auto;
+    max-width: 750px;
+    position: relative;
+}
+
+.to {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    font-family: Colaborate-LightRegular, Verdana, Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    text-align: center;
+    padding-top: 5px;
+    letter-spacing: .2em;
+}
+
+/* top left link */
+.we {
+    left: 0;
+}
+
+/* top right link */
+.disrupt {
+    right: 0;
+}
+
+/* text area */
+.lives {
+    background-color: #e7e7e7;
+    margin-top: 40px;
+    padding: 5px;
+    line-height: 1.6em;
+}
+
+p, ul {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+#sponsors img {
+	float: left;
+	margin: 0 30px;
+}
