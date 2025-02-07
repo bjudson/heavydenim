@@ -52,7 +52,7 @@ a:hover {
 }
 
 img {
-    margin: 2px;
+    max-width: 100%;
 }
 
 h1 {
@@ -63,6 +63,15 @@ h1 {
     background: #fff url(hdlogo.jpg) no-repeat center center;
     padding: 5px;
     z-index: 1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    padding: 0;
 }
 
 @media screen and (min-width: 800px) {
@@ -150,14 +159,6 @@ strong {
 
 p, ul {
     margin-bottom: 15px;
-}
-
-ul {
-    margin-left: 30px;
-}
-
-li {
-    margin-bottom: 5px;
 }
 
 #sponsors img {

@@ -3,4 +3,5 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("hdlogo.jpg");
     eleventyConfig.addPassthroughCopy("favicon.ico");
     eleventyConfig.addPassthroughCopy("fonts");
+    eleventyConfig.addPassthroughCopy("img");
 };
