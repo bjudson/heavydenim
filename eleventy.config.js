@@ -4,4 +4,5 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("favicon.ico");
     eleventyConfig.addPassthroughCopy("fonts");
     eleventyConfig.addPassthroughCopy("img");
+    eleventyConfig.addPassthroughCopy(".well-known");
 };
