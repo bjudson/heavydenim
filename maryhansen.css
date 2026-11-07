@@ -115,6 +115,10 @@ blockquote {
     display: block;
 }
 
+figcaption {
+    font-size: 0.85rem;
+}
+
 strong {
     font-weight: normal;
     font-family: Colaborate-MediumRegular, Verdana, Arial, Helvetica, sans-serif;
